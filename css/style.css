@@ -1,3 +1,117 @@
-* {
+ {
     border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+* {
+  font-family: Sansita, sans-serif;
+  color: beige;
+  
+  
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1452570053594-1b985d6ea890?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=andrew-pons-57133.jpg&s=796d950dedd622c4385c9870e57b68f4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  top: 300px;
+}
+
+footer {
+  font-size: 20px;
+  color:white;
+  opacity: 0.6;
+  font-weight:700;
+  text-shadow: 5px 3px 10px rgba(1,1,1,0.4);
+  text-align: center;
+  position: relative;
+  top: 0px;
+  bottom: 100px;
+}
+
+footer p {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  clear: both;
+}
+
+.navigation li {
+  display: inline-block;
+  font-size: 30px;
+  color:beige;
+  padding: 20px 60px;
+  margin: 0 20px;
+  background-color: rgba(44, 65, 39, 0.83);
+  border-radius: 10px;
+  box-shadow: 4px 6px 3px rgba(36, 51, 33, 0.83) inset, -1px -2px 3px rgba(36, 51, 33, 0.83) inset;
+  
+  
+  
+}
+
+
+
+.navigation li:hover {
+  background-color: rgba(32, 46, 29, 0.9);
+  
+  cursor: pointer;
+}
+
+h1 {
+  color: beige;
+  font-size: 3em;
+}
+
+div.navigation {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  margin: auto; 
+  min-width: 805px;
+}
+
+nav {
+  width: 100%;
+  z-index: 2;
+  margin: auto;
+  padding: 20px 0;
+  background-color: rgba(73, 96, 68, 0.47);
+  
+}
+
+.super {
+  max-width: 1240px;
+  min-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+  
+}
+
+.wrapper {
+  border-radius: 20px;
+  padding: 50px;
+  
+  margin-left: 20px;
+  background-color: rgba(136, 127, 99, 0.69);
+  width: calc(100% - 450px);
+  float: left;
+  margin: auto;
+}
+
+.artikel {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgba(160, 154, 136, 0.87);
+}
+
+.history {
+  background-color: rgba(160, 154, 136, 0.87);
+  border-radius: 10px;
+  float: right;
+  width: 250px;
+  
 }
